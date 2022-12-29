@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo/ui/theme.dart';
+import 'package:taskreminder/ui/theme.dart';
 import '../../controllers/task_controller.dart';
 
 AppBar appBar(BuildContext context, Function() onPressed, Widget icon,

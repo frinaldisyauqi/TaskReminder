@@ -6,9 +6,9 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
-import 'package:todo/models/task.dart';
-import 'package:todo/services/notification_services.dart';
-import 'package:todo/ui/widgets/task_tile.dart';
+import 'package:taskreminder/models/task.dart';
+import 'package:taskreminder/services/notification_services.dart';
+import 'package:taskreminder/ui/widgets/task_tile.dart';
 
 import '../../controllers/task_controller.dart';
 import '../widgets/appBar.dart';

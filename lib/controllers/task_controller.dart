@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:todo/db/db_helper.dart';
+import 'package:taskreminder/db/db_helper.dart';
 import '../models/task.dart';
 
 class TaskController extends GetxController {
@@ -21,7 +21,7 @@ class TaskController extends GetxController {
     await DBHelper.delete(task);
     getTask();
   }
-  
+
   void deleteAllTasks() async {
     await DBHelper.deleteAll();
     getTask();

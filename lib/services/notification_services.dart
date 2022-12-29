@@ -7,8 +7,8 @@ import 'package:intl/intl.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
-import 'package:todo/ui/pages/add_task_page.dart';
-import 'package:todo/ui/pages/home_page.dart';
+import 'package:taskreminder/ui/pages/add_task_page.dart';
+import 'package:taskreminder/ui/pages/home_page.dart';
 
 import '../ui/pages/notification_screen.dart';
 import '/models/task.dart';
@@ -63,7 +63,6 @@ class NotifyHelper {
     var androidPlatformChannelSpecifics = const AndroidNotificationDetails(
       'your channel id',
       'your channel name',
-      'your channel description',
       importance: Importance.max,
       priority: Priority.high,
       playSound: true,
@@ -85,6 +84,7 @@ class NotifyHelper {
   deleteNotification(Task task) async {
     await flutterLocalNotificationsPlugin.cancel(task.id!);
   }
+
   deleteAllNotification() async {
     await flutterLocalNotificationsPlugin.cancelAll();
   }
@@ -98,8 +98,8 @@ class NotifyHelper {
       _nextInstanceOfTenAM(
           hour, minutes, task.remind!, task.repeat!, task.date!),
       const NotificationDetails(
-        android: AndroidNotificationDetails(
-            'your channel id', 'your channel name', 'your channel description'),
+        android:
+            AndroidNotificationDetails('your channel id', 'your channel name'),
       ),
       androidAllowWhileIdle: true,
       uiLocalNotificationDateInterpretation:

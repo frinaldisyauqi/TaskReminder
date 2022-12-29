@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo/ui/theme.dart';
+import 'package:taskreminder/ui/theme.dart';
 
 class InputField extends StatelessWidget {
   InputField(
@@ -25,7 +25,6 @@ class InputField extends StatelessWidget {
           textAlignVertical: TextAlignVertical.top,
           controller: txtController,
           autofocus: widget == null ? false : true,
-          
           readOnly: widget == null ? false : true,
           cursorColor: Get.isDarkMode ? Colors.white : Colors.black,
           decoration: InputDecoration(

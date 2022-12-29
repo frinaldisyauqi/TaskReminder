@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo/services/theme_services.dart';
-import 'package:todo/ui/theme.dart';
+import 'package:taskreminder/services/theme_services.dart';
+import 'package:taskreminder/ui/theme.dart';
 
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({
@@ -28,17 +28,16 @@ class _NotificationScreenState extends State<NotificationScreen> {
       appBar: AppBar(
         backgroundColor: context.theme.backgroundColor,
         leading: IconButton(
-          color: Get.isDarkMode? Colors.white : bluishClr,
+          color: Get.isDarkMode ? Colors.white : bluishClr,
           icon: const Icon(Icons.arrow_back_ios),
           onPressed: () {
             Get.back();
           },
         ),
         elevation: 0,
-        title: Text(
-          payload[0],
-          style: TextStyle(color: Get.isDarkMode ? Colors.white : Colors.black)
-        ),
+        title: Text(payload[0],
+            style:
+                TextStyle(color: Get.isDarkMode ? Colors.white : Colors.black)),
         centerTitle: true,
       ),
       body: SafeArea(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo/controllers/task_controller.dart';
+import 'package:taskreminder/controllers/task_controller.dart';
 
-import 'package:todo/models/task.dart';
-import 'package:todo/ui/theme.dart';
+import 'package:taskreminder/models/task.dart';
+import 'package:taskreminder/ui/theme.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class TaskTile extends StatelessWidget {
