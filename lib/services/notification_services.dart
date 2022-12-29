@@ -61,13 +61,12 @@ class NotifyHelper {
       required String date}) async {
     print('doing test');
     var androidPlatformChannelSpecifics = const AndroidNotificationDetails(
-      'your channel id',
-      'your channel name',
-      importance: Importance.max,
-      priority: Priority.high,
-      playSound: true,
-      // sound: RawResourceAndroidNotificationSound('notification')
-    );
+        'Task', 'Task Notification',
+        channelDescription: 'For Task Notification',
+        importance: Importance.max,
+        priority: Priority.max,
+        playSound: true,
+        sound: RawResourceAndroidNotificationSound('notification'));
     var iOSPlatformChannelSpecifics = const IOSNotificationDetails();
     var platformChannelSpecifics = NotificationDetails(
         android: androidPlatformChannelSpecifics,
@@ -98,14 +97,18 @@ class NotifyHelper {
       _nextInstanceOfTenAM(
           hour, minutes, task.remind!, task.repeat!, task.date!),
       const NotificationDetails(
-        android:
-            AndroidNotificationDetails('your channel id', 'your channel name'),
+        android: AndroidNotificationDetails('Task', 'Task Notification',
+            channelDescription: 'For Task Notification',
+            importance: Importance.max,
+            priority: Priority.max,
+            playSound: true,
+            sound: RawResourceAndroidNotificationSound('notification')),
       ),
       androidAllowWhileIdle: true,
       uiLocalNotificationDateInterpretation:
           UILocalNotificationDateInterpretation.absoluteTime,
       matchDateTimeComponents: DateTimeComponents.time,
-      payload: '${task.title}|${task.note}|${task.startTime}|',
+      payload: '${task.title}||${task.note}||${task.startTime}',
     );
     // print('scheduledNotification');
   }

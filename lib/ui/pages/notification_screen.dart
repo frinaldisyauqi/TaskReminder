@@ -35,7 +35,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
           },
         ),
         elevation: 0,
-        title: Text(payload[0],
+        title: Text('Task Reminder',
             style:
                 TextStyle(color: Get.isDarkMode ? Colors.white : Colors.black)),
         centerTitle: true,
@@ -47,7 +47,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
             children: [
               const SizedBox(height: 10),
               Text(
-                'Hello BomBoOo',
+                payload[0],
                 style: TextStyle(
                     color: ThemeServices().loadThemeFromBox()
                         ? Colors.white
@@ -79,7 +79,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                notifyHead(Icons.text_format, 'Title'),
+                notifyHead(Icons.task, 'Task'),
                 const SizedBox(height: 10),
                 notifyParaghraph(payload[0]),
                 const SizedBox(height: 20),
@@ -87,7 +87,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                 const SizedBox(height: 10),
                 notifyParaghraph(payload[1]),
                 const SizedBox(height: 20),
-                notifyHead(Icons.calendar_today, 'Date'),
+                notifyHead(Icons.schedule, 'Time'),
                 const SizedBox(height: 10),
                 notifyParaghraph(payload[2]),
                 const SizedBox(height: 20),
