@@ -7,7 +7,7 @@
 <br>
 
 [![1207050031](https://img.shields.io/badge/1207050031-Dzaki%20Moch%20Fikri%20Aliffa-blue)](https://github.com/dzakialiffa) 
-[![1207050033](https://img.shields.io/badge/1207050031-Eneng%20Raysa%20Bunga%20Rizkya%20-blue)]()
+[![1207050033](https://img.shields.io/badge/1207050033-Eneng%20Raysa%20Bunga%20Rizkya%20-blue)]()
 [![1207050038](https://img.shields.io/badge/1207050038-Faza%20Mohamad%20Farsyafat-blue)]() 
 [![1207050041](https://img.shields.io/badge/1207050041-Frinaldi%20Muhammad%20Syauqi-blue)](https://github.com/frinaldisyauqi) 
   <br> [Teknik Informatika](http://if.uinsgd.ac.id/) | [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
