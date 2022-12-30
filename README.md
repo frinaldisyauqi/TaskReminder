@@ -26,6 +26,15 @@ Aplikasi ini dapat digunakan dalam kehidupan sehari-hari contohnya adalah mengin
 kuliah, dan masih banyak yang lainnya. Cocok sekali bagi kamu yang membutuhkan bantuan untuk mencatat dan mengingat tugas-tugasmu. 
 di dalam aplikasi Task Reminder juga  memiliki tingkat keberhasilan pengguna dalam menyelesaikan tugas-tugas mereka setelah menggunakan aplikasi ini.
 
+## Target Pasar
+Target pasar untuk aplikasi task reminder dapat terdiri dari berbagai kelompok, di antaranya:
+1. Individu yang memiliki banyak tugas dan kegiatan sehari-hari, seperti pekerja kantoran, pelajar, atau ibu rumah tangga. Aplikasi task reminder dapat membantu mereka mengingat dan mengelola tugas-tugas yang harus dikerjakan.
+2. Kelompok profesional, seperti konsultan, pengacara, atau dokter, yang memiliki jadwal yang padat dan membutuhkan bantuan untuk mengelola tugas-tugas yang harus dikerjakan.
+3. Perusahaan atau organisasi yang ingin membantu karyawan mereka mengelola tugas-tugas dan kegiatan sehari-hari dengan lebih efektif. Aplikasi task reminder dapat membantu meningkatkan produktivitas karyawan dengan membantu mereka mengelola tugas-tugas yang harus dikerjakan.
+4. Pengguna yang ingin mengelola kegiatan hobi atau olahraga mereka, seperti membuat jadwal latihan atau mengingat kegiatan komunitas yang harus diikuti.
+
+Secara umum, target pasar dari aplikasi task reminder adalah individu atau kelompok yang memiliki banyak tugas dan kegiatan yang harus dikerjakan, dan membutuhkan bantuan untuk mengelola dan mengingat tugas-tugas tersebut.
+
 ## Pemasaran Aplikasi
 Untuk memasarkan aplikasi ini, kami berencana untuk menggunakan berbagai strategi pemasaran yang sesuai dengan target pasar kami. 
 Beberapa contoh strategi yang akan kami lakukan adalah:
