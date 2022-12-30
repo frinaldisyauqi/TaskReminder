@@ -54,6 +54,9 @@ Misi kami adalah terus mengembangkan aplikasi ini dengan fitur-fitur baru yang b
 Kami yakin bahwa aplikasi ini akan sukses di pasaran karena kami telah melakukan riset pasar yang cukup mendalam dan memahami kebutuhan pengguna. Kami juga memiliki tim yang terdiri dari profesional yang berpengalaman dan memiliki latar belakang yang solid di bidang pengembangan aplikasi. Kami percaya bahwa dengan semua faktor tersebut, aplikasi ini akan menjadi pilihan yang tepat bagi pengguna yang membutuhkan bantuan untuk mengelola tugas-tugas mereka sehari-hari.
 
 ## Tampilan Aplikasi
+
+<div align='center'>
+  
 | Screenshot | Screenshot | Screenshot |
 | --- | --- | --- |
 | <img src="https://github.com/frinaldisyauqi/TaskReminder/blob/main/Screenshot/TampilanAwal.png" width="250">| <img src="https://github.com/frinaldisyauqi/TaskReminder/blob/main/Screenshot/TampilanAddTask1.png" width="250"> | <img src="https://github.com/frinaldisyauqi/TaskReminder/blob/main/Screenshot/TampilanAddTask2.png" width="250"> |
